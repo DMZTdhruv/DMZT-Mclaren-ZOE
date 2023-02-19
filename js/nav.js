@@ -1,5 +1,6 @@
 const primaryNav = document.querySelector('.navigation');
 const navToggle = document.querySelector('.mobile-nav');
+const current = document.querySelector('.active');
 
 navToggle.addEventListener('click', ()=>{
     const visiblity = primaryNav.getAttribute("data-visible")
@@ -9,5 +10,11 @@ navToggle.addEventListener('click', ()=>{
     } else if(visiblity === "true"){
         primaryNav.setAttribute('data-visible',false)
         navToggle.setAttribute('aria-expanded',false);
+    }
+    if(spanrn === "white"){
+        current.setAttribute('on-color',"aqua");
+        console.log(current);
+    } else{
+        current.setAttribute('on-color',"white");
     }
 });
