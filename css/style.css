@@ -118,9 +118,32 @@ body{
     opacity: 100%;
 }
 
+.mobile-nav span{
+    border: 1px solid white;
+    padding: 0.1rem 1rem;
+    opacity: 50%;
+    border-radius: 10%;
+    padding-bottom: 0.3rem;
+    transition: 0.2s all ease;
+    text-shadow: 0 0 0rem aqua;
+}
+
+.mobile-nav span:hover{
+    text-shadow: 0 0 1rem aqua;
+    color: aqua;
+    opacity: 100%;
+}
+
+.active[on-color="aqua"]{
+    color: aqua;
+    text-shadow: 0 0 1rem aqua;
+    opacity: 100%;
+}
+
 .logo-grid{
     margin-left: 2rem;
 }
+
 .mclaren-nav-bar .nav-btn{
     margin-right: 1.5rem;
     padding: 0.1rem 1.2rem;
@@ -130,6 +153,7 @@ body{
     opacity: 50%;
     transition: 0.2s all ease;
 }
+
 @media (max-width:800px) {
     .mclaren-nav-bar .nav-btn{
         margin-right: 5rem;
