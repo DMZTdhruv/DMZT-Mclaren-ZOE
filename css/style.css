@@ -106,8 +106,8 @@ body{
         top: 0px;
         right: 3.9rem;
         z-index: 9999;
-        border: 0px solid white;
-        padding: 1rem;
+        border: 1px solid white;
+        padding: 0.1rem 0.7rem;
         background-color: transparent;
         transform: rotate(deg);
         display: block;
