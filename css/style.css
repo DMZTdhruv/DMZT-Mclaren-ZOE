@@ -81,6 +81,11 @@ body{
     transform: rotate(90deg);
 }
 
+.active[on-color="aqua"]{
+    color: aqua;
+    text-shadow: 0 0 1rem aqua;
+    opacity: 100%;
+}
 
 .navigation[data-visible="true"]{
     transform: translateX(0%);
@@ -103,11 +108,11 @@ body{
     }
     .mobile-nav{
         position: absolute;
-        top: 0px;
-        right: 3.9rem;
+        top: 1px;
+        right: 5rem;
         z-index: 9999;
-        border: 1px solid white;
-        padding: 0.1rem 0.7rem;
+        border: 0px solid white;
+        padding: 1rem;
         background-color: transparent;
         transform: rotate(deg);
         display: block;
@@ -134,16 +139,9 @@ body{
     opacity: 100%;
 }
 
-.active[on-color="aqua"]{
-    color: aqua;
-    text-shadow: 0 0 1rem aqua;
-    opacity: 100%;
-}
-
 .logo-grid{
     margin-left: 2rem;
 }
-
 .mclaren-nav-bar .nav-btn{
     margin-right: 1.5rem;
     padding: 0.1rem 1.2rem;
@@ -153,7 +151,6 @@ body{
     opacity: 50%;
     transition: 0.2s all ease;
 }
-
 @media (max-width:800px) {
     .mclaren-nav-bar .nav-btn{
         margin-right: 5rem;
